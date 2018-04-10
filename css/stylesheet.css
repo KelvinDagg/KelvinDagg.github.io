@@ -1,21 +1,28 @@
-header {
-  height: 200px;
-  width: 100%;
-}
-
 footer {
-  height: 200px;
-  width: 100%;
+  min-height: 200px;
+  text-align: center;
 }
 
 #outer {
+  margin: auto;
   max-width: 1020px;
-  margin:auto;
+}
+
+#logo {
+  max-height: 100px;
+  width: 100px;
+  float: left;
+  box-sizing: border-box;
+}
+
+#logoGroup  {
+  vertical-align: middle;
+  width: 33%;
 }
 
 .clearfloat {
   font-size: 0px;
-  margin: 0px;
+  margin-left: 0px;
   padding: 0px;
   clear: both;
   float: none;
