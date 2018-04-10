@@ -1,21 +1,33 @@
-p {
-  font-size: 12px;
-}
-
-header {
-  background-color: red;
-  height: 200px;
-  width: 100%;
-}
-
 footer {
-  background-color: blue;
-  height: 200px;
-  width: 100%;
+  min-height: 200px;
+  text-align: center;
 }
 
-body {
-  background-color: green;
-  width: 100%;
+#outer {
+  margin: auto;
   max-width: 1020px;
+}
+
+#logo {
+  max-height: 100px;
+  width: 100px;
+  float: left;
+  box-sizing: border-box;
+}
+
+#logoGroup  {
+  vertical-align: middle;
+  width: 33%;
+}
+
+.clearfloat {
+  font-size: 0px;
+  margin-left: 0px;
+  padding: 0px;
+  clear: both;
+  float: none;
+  height: 0px;
+  width: 0px;
+  border: 0px;
+  line-height: 0px;
 }
