@@ -3,3 +3,5 @@
 ## Projects
 
 [Strawberries-Wireframe](#)
+
+Restarting my GitHub Page, This will be updated as much as possible.
